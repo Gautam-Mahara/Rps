@@ -1,5 +1,5 @@
 ﻿Get-WinEvent -FilterHashtable @{
-    LogName='Security';
-    ID=4624,4634;
-    StartTime=(Get-Date).AddHours(-2)
+ LogName='Security'
+ ID=4624,4634
+ StartTime=(Get-Date).AddMinutes(-120)
 }
